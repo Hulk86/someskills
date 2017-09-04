@@ -1,0 +1,11 @@
+在包含自 filelog.cpp：2 的文件中:
+filelog.h:9:24: 错误：stringstream：没有那个文件或目录
+In file included from filelog.cpp:2:
+filelog.h:18: 错误：expected identifier before ‘if’
+filelog.h:18: 错误：expected ‘,’ or ‘...’ before ‘if’
+filelog.h:18: 错误：析构函数不能有参数
+filelog.h:26: 错误：‘stringstream’在命名空间‘std’中没有命名一个类型
+filelog.h: In constructor ‘OFileLog::OFileLog()’:
+filelog.h:17: 错误：‘m_fdFile’在此作用域中尚未声明
+filelog.cpp: In constructor ‘OFileLog::OFileLog(const char*)’:
+filelog.cpp:19: 错误：‘m_fdFile’在此作用域中尚未声明
